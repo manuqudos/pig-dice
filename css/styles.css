@@ -1,0 +1,31 @@
+body{
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/122427/roll-the-dice-craps-board-game-points-122427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+.jumbotron{
+  background-image:linear-gradient(#d170d0,#ebdc54,#4a93de);
+  border-radius: 15px;
+  text-align: center;
+}
+#start{
+  position: relative;
+  left: 50%;
+  color: #f55612;
+  background-color: #090404;
+  border-radius: 5px;
+  
+}
+#rules{
+  display: none;
+  text-align: left;
+  left: 300px;
+}
+.clickable{
+  cursor: pointer;
+  color: #036bd5;
+}
+.clickable:hover{
+  text-decoration: underline;
+}

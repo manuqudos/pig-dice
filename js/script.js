@@ -1,5 +1,10 @@
-document.ready(function(){
-  $('#start').click( function(){
+$(document).ready(function(){
+  $('.clickable').click(function(){
+    $('#rules').toggle();
+  })
+
+  $('#start').click(function(){
     $('.jumbotron').hide();
-  }
-});
+    $('#start').hide();
+  })
+})
