@@ -3,8 +3,5 @@ $(document).ready(function(){
     $('#rules').toggle();
   })
 
-  $('#start').click(function(){
-    $('.jumbotron').hide();
-    $('#start').hide();
-  })
+
 })

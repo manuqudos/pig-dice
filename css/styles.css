@@ -9,13 +9,12 @@ body{
   border-radius: 15px;
   text-align: center;
 }
-#start{
+#startButton{
   position: relative;
-  left: 50%;
+  left: 35%;
   color: #f55612;
   background-color: #090404;
   border-radius: 5px;
-  
 }
 #rules{
   display: none;
