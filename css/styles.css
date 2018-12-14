@@ -10,12 +10,14 @@ body{
   text-align: center;
 }
 .well{
-  background-image: url("https://images.pexels.com/photos/122427/roll-the-dice-craps-board-game-points-122427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/1225131/pexels-photo-1225131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #startButton{
-  position: relative;
-  left: 35%;
+  left: 15%;
   color: #f55612;
   background-color: #090404;
   border-radius: 5px;
@@ -39,13 +41,15 @@ label{
 }
 
 p{
-  color: #28e4d9;
+  color: #121d1d;
   font-weight: bolder;
+  font-size: 20px;
 }
 
 h2{
   color: #594f07;
   font-weight: bolder;
+  font-size: 30px;
 }
 img{
   border-radius: 20px;
