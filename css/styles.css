@@ -1,7 +1,7 @@
 body{
   margin: 10px;
   background-repeat: no-repeat;
-  background-image: url("https://www.pexels.com/photo/close-up-photography-of-4-red-white-dice-40870/");
+  background-image: url("https://images.pexels.com/photos/122427/roll-the-dice-craps-board-game-points-122427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
 }
 .jumbotron{
@@ -9,6 +9,10 @@ body{
   border-radius: 15px;
   text-align: center;
 }
+.well{
+  background-image: url("https://images.pexels.com/photos/122427/roll-the-dice-craps-board-game-points-122427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
 #startButton{
   position: relative;
   left: 35%;
@@ -27,4 +31,22 @@ body{
 }
 .clickable:hover{
   text-decoration: underline;
+}
+
+label{
+  color: #28e4d9;
+  font-weight: bolder;
+}
+
+p{
+  color: #28e4d9;
+  font-weight: bolder;
+}
+
+h2{
+  color: #594f07;
+  font-weight: bolder;
+}
+img{
+  border-radius: 20px;
 }
