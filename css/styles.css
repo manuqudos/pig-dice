@@ -5,9 +5,11 @@ body{
   background-size: cover;
 }
 .jumbotron{
-  background-image:linear-gradient(#d170d0,#ebdc54,#4a93de);
+  background-image:url("https://images.pexels.com/photos/248306/pexels-photo-248306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   border-radius: 15px;
   text-align: center;
+  background-size: contain;
+  
 }
 .well{
   background-image: url("https://images.pexels.com/photos/248306/pexels-photo-248306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
