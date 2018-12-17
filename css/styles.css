@@ -1,7 +1,7 @@
 body{
   margin: 10px;
   background-repeat: no-repeat;
-  background-image: url("https://images.pexels.com/photos/122427/roll-the-dice-craps-board-game-points-122427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/40508/cube-game-cube-instantaneous-speed-pay-40508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
 }
 .jumbotron{
@@ -10,49 +10,39 @@ body{
   text-align: center;
 }
 .well{
-  background-image: url("https://images.pexels.com/photos/988874/pexels-photo-988874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/248306/pexels-photo-248306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   text-align: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover
   width: 1000px;
   margin-left:10%;
+  margin-right: 10%;
   opacity: 0.5px;
 
 }
 
-#startButton{
+#start{
   left: 15%;
   color: #f55612;
   background-color: #090404;
   border-radius: 5px;
 }
-#rules{
-  display: none;
-  text-align: left;
-  left: 300px;
-}
-.clickable{
-  cursor: pointer;
-  color: #036bd5;
-}
-.clickable:hover{
-  text-decoration: underline;
-}
+
 
 label{
-  color: #28e4d9;
+  color: #121d67;
   font-weight: bolder;
 }
 
 p{
-  color: #121d1d;
+  color: #121d67;
   font-weight: bolder;
   font-size: 20px;
   font-family: cursive;
 }
 
 h2{
-  color: #594f07;
+  color: #0a0909;
   font-weight: bolder;
   font-size: 30px;
   font-family: 'Bungee Shade', cursive;
@@ -60,6 +50,7 @@ h2{
 img{
   border-radius: 20px;
 }
+
 
 li{
   font-family: 'Berkshire Swash',cursive;
