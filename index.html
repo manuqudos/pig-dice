@@ -9,61 +9,58 @@
 </head>
 
 <body>
-  <div class="containter">
-    <div class="jumbotron">
-      <h1>Let's play Dice</h1>
-    </div>
-    <div class="well">
-      <p class="clickable"> How to play the game;</p>
-      <ul id="rules">
-        <li>Pig is game for 2 to 6 Players.</li>
-        <li>Players take turns rolling a dice as many times as they like.</li>
-        <li>If a roll is 2, 3, 4, 5 or 6, the player adds that many points to their score for the turn.</li>
-        <li>A player may choose to end their turn at any time and 'bank' their points.</li>
-        <li>If a player rolls a 1, they lose all their unbanked points and their turn is over.</li>
-        <li>The first player to score the target or more wins.</li>
-      </ul>
 
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Let's play Pig Dice!</h1>
     </div>
     <div class="well">
-      <h2 id="newGame">New game</h2>
-      <form class="player-section">
-        <h2>Insert your names to play</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <label for="player-1">Player 1</label>
-            <input type="text" id="player-1">
-          </div>
-          <div class="col-md-6">
-            <label for="player-2">Player 2</label>
-            <input type="text" id="player-2">
-          </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="player-1">
+            <div class="form-group">
+              <label for="player1Name">Player 1 Name:</label>
+              <input required class="player1Name form-control" type="text">
+            </div>
+          </form>
         </div>
-        <button type="submit" class="btn" id="startButton">START THE GAME</button>
-      </form>
-      <div id="gameArea" class="row">
-        <div class="col-md-6" id="player1Area">
-          <h2 class="player1NameOutput"></h2>
-          <img src="images/pic1.jpeg" alt="Image Icon for Player 1" height="100px" width="100px">
-          <p>Dice Roll: <span class="diceRoll1"></span></p>
-          <p>Turn Score: <span class="turnScore1"></span></p>
-          <p>Overall Score: <span class="overallScore1"></span></p>
-          <button class="roll1 btn">ROLL</button>
-          <button class="hold1 btn">HOLD</button>
-        </div>
-        <div class="col-md-6 player2Area">
-          <h2 class="player2NameOutput"></h2>
-          <img src="images/pic2.jpg" alt="Image Icon for Player 2" height="100px" width="100px">
-          <p>Dice Roll: <span class="diceRoll2"></span></p>
-          <p>Turn Score: <span class="turnScore2"></span></p>
-          <p>Overall Score: <span class="overallScore2"></span></p>
-          <button class="roll2 btn">ROLL</button>
-          <button class="hold2 btn">HOLD</button>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="player2Name">Player 2 Name:</label>
+            <input required class="player2Name form-control" type="text">
+          </div>
+        </form>
         </div>
       </div>
 
-    </div>
+      <form id="player-2">
 
+      <button id="start" class="btn-info btn">Start</button>
+    </div>
+  </div>
+  <div class="container">
+    <button id="new-game" class="btn-success btn">NEW GAME</button>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Player 1: <span id="player1Name"><span></h2>
+        <img src="images/pic1.jpeg" alt="pic for player 1" height="100px" width="100px">
+        <button id="player1-roll" class="btn-success btn">Roll</button>
+        <button id="player1-hold" class="btn-success btn">Hold</button>
+        <h2>Dice Roll: <span id="die-roll-1"></span></h2>
+        <p>Round Total: <span id="round-total-1"></span></p>
+        <p>Total Score: <span id="total-score-1"></span></p>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Player 2: <span id="player2Name"><span></h2>
+        <img src="images/pic2.jpg" alt="pic for player 2" height="100px" width="100px">
+        <button id="player2-roll" class="btn-success btn">Roll</button>
+        <button id="player2-hold" class="btn-success btn">Hold</button>
+        <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+        <p>Round Total: <span id="round-total-2"></span></p>
+        <p>Total Score: <span id="total-score-2"></span></p>
+      </div>
+    </div>
   </div>
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/script.js"></script>

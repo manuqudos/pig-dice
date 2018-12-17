@@ -68,9 +68,6 @@ li{
   color: #a3361e;
 }
 
-#gameArea{
-  display:none;
-}
 
 #newGame{
   cursor: pointer;
@@ -78,8 +75,4 @@ li{
 #newGame:hover{
   text-decoration: underline;
   color: #1e3f9f;
-}
-
-.player-section{
-  display: none;
 }
