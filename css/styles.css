@@ -9,8 +9,8 @@ body{
   border-radius: 15px;
   text-align: center;
   background-size: contain;
-
 }
+
 .well{
   background-image: url("https://images.pexels.com/photos/248306/pexels-photo-248306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   text-align: center;
@@ -58,4 +58,8 @@ li{
   font-size: 20px;
   font-weight: bold;
   color: #a3361e;
+}
+
+#gameArea{
+  display: none;
 }

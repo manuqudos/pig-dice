@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('#start').click();
+  $('#gameArea').show();
+})
 var player1 = "";
 var player2 = "";
 
