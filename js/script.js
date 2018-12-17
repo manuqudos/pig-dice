@@ -6,6 +6,6 @@ $(document).ready(function(){
 })
 $(document).ready(function(){
   $('.btn').click(function(){
-    ('#gameArea').fadeIn();
+    ('#gameArea').show();
   })
 })
