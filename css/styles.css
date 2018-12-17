@@ -5,11 +5,11 @@ body{
   background-size: cover;
 }
 .jumbotron{
-  background-image:url("https://images.pexels.com/photos/248306/pexels-photo-248306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image:linear-gradient(#8872eb,#799c15,#5ede1c);
   border-radius: 15px;
   text-align: center;
   background-size: contain;
-  
+
 }
 .well{
   background-image: url("https://images.pexels.com/photos/248306/pexels-photo-248306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -29,7 +29,6 @@ body{
   background-color: #090404;
   border-radius: 5px;
 }
-
 
 label{
   color: #121d67;
@@ -59,13 +58,4 @@ li{
   font-size: 20px;
   font-weight: bold;
   color: #a3361e;
-}
-
-
-#newGame{
-  cursor: pointer;
-}
-#newGame:hover{
-  text-decoration: underline;
-  color: #1e3f9f;
 }
