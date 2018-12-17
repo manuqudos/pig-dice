@@ -10,10 +10,14 @@ body{
   text-align: center;
 }
 .well{
-  background-image: url("https://images.pexels.com/photos/1225131/pexels-photo-1225131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/988874/pexels-photo-988874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 1000px;
+  margin-left:10%;
+  opacity: 0.5px;
+
 }
 
 #startButton{
@@ -44,13 +48,26 @@ p{
   color: #121d1d;
   font-weight: bolder;
   font-size: 20px;
+  font-family: cursive;
 }
 
 h2{
   color: #594f07;
   font-weight: bolder;
   font-size: 30px;
+  font-family: 'Bungee Shade', cursive;
 }
 img{
   border-radius: 20px;
+}
+
+li{
+  font-family: 'Berkshire Swash',cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #a3361e;
+}
+
+#gameArea{
+  display:none;
 }
