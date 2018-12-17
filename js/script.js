@@ -1,7 +1,3 @@
-$(document).ready(function(){
-  $('#start').click();
-  $('#gameArea').show();
-})
 var player1 = "";
 var player2 = "";
 
@@ -53,12 +49,15 @@ var clearValues = function() {
 }
 
 $(document).ready(function() {
+    $('.clickable').click(function(){
+    $('li').toggle();
+    });
 
   $("button#start").click(function(event) {
     player1 = new Player(true);
     player2 = new Player(false);
-    $(".player-console").show();
-    $(".start-menu").hide();
+    $("#gameArea").show();
+    $("#profile").hide();
 
     var player1Name = $(".player1Name").val();
     $("#player1Name").text(player1Name);
@@ -71,7 +70,7 @@ $(document).ready(function() {
 
   });
   $("button#new-game").click(function(event) {
-    $(".player-console").hide();
+    $("#gameArea").hide();
     clearValues();
     player1.newGame();
     player2.newGame();
@@ -82,7 +81,7 @@ $(document).ready(function() {
     $("#total-score-2").empty();
     $("#die-roll-2").empty();
 
-    $(".start-menu").show();
+    $("#profile").show();
   });
 
   $("button#player1-roll").click(function(event) {
