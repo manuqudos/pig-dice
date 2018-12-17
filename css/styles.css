@@ -71,3 +71,15 @@ li{
 #gameArea{
   display:none;
 }
+
+#newGame{
+  cursor: pointer;
+}
+#newGame:hover{
+  text-decoration: underline;
+  color: #1e3f9f;
+}
+
+.player-section{
+  display: none;
+}

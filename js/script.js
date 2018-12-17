@@ -5,7 +5,14 @@ $(document).ready(function(){
   })
 })
 $(document).ready(function(){
-  $('.btn').click(function(){
-    ('#gameArea').show();
+  $('#newGame').click(function(){
+  $('.player-section').toogle();
+  })
+})
+
+$(document).ready(function(){
+  $('#startButton').click(function(){
+    $('#gameArea').show();
+    
   })
 })
