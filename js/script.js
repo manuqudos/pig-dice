@@ -58,6 +58,7 @@ $(document).ready(function() {
     player2 = new Player(false);
     $("#gameArea").show();
     $("#profile").hide();
+    $(".jumbotron").hide();
 
     var player1Name = $(".player1Name").val();
     $("#player1Name").text(player1Name);
@@ -82,6 +83,7 @@ $(document).ready(function() {
     $("#die-roll-2").empty();
 
     $("#profile").show();
+    $(".jumbotron").show();
   });
 
   $("button#player1-roll").click(function(event) {
