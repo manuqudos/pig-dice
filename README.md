@@ -17,7 +17,12 @@ The first player to score 50 or more points wins.
 
 ## Setup/Installation Requirements
 
-To open the page, one should go to the following link; https://oscarngolo.github.io/pig-dice/
+To use the code, you can clone the repository at: https://github.com/oscarngolo/pig-dice.
+
+$ git clone https://github.com/oscarngolo/pig-dice.git
+$ cd pig-dice
+Then run through it to your local machine then push to your repository.
+
 
 ## Support and contact details
 
