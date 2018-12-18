@@ -26,17 +26,18 @@ body{
 
 #start{
   left: 15%;
-  color: #f55612;
+  color: #dbc5bc;
+  background-color: green;
   border-radius: 5px;
 }
 
 label{
-  color: #121d67;
-  font-weight: bolder;
+  color: #0a0909;
+  font-weight: 900 ;
 }
 
 p{
-  color: #060606;
+  color: #0a0909;
   font-weight: bolder;
   font-size: 20px;
   font-family: cursive;
@@ -64,7 +65,7 @@ li{
   font-family: 'Berkshire Swash',cursive;
   font-size: 20px;
   font-weight: bold;
-  color: #a3361e;
+  color: #0a0909;
   text-align: left;
   margin-left: 20%;
   display: none;
