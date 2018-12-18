@@ -6,10 +6,10 @@ body{
 }
 
 .jumbotron{
-  background-image:linear-gradient(#8872eb,#799c15,#5ede1c);
   border-radius: 15px;
   text-align: center;
   background-size: contain;
+  opacity: 0.5;
 }
 
 .well{
@@ -27,7 +27,6 @@ body{
 #start{
   left: 15%;
   color: #f55612;
-  background-color: #090404;
   border-radius: 5px;
 }
 
@@ -37,7 +36,7 @@ label{
 }
 
 p{
-  color: #121d67;
+  color: #060606;
   font-weight: bolder;
   font-size: 20px;
   font-family: cursive;
@@ -55,10 +54,6 @@ h2{
 }
 .clickable:hover{
   text-decoration: underline;
-}
-
-h1{
-  color:#15869e;
 }
 
 img{
